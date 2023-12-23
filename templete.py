@@ -22,6 +22,8 @@ list_of_file=[
     "Dockerfile",
     "requirements.txt",
     "setup.py",
+    "logger.py",
+    "exception.py"
 ]
 for filepath in list_of_file:
     filepath = Path(filepath)

@@ -1,6 +1,4 @@
-print("hello")
-a = []
-with open("demo.txt") as file_obj:
-    a = file_obj.readlines()
-    a = [ req.replace("\n" , "") for req in a]
-print(a)
+from src.mlproject.logger import logging
+
+if __name__ == '__main__':
+    logging.info("The Execution is started")
